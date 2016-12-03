@@ -19,7 +19,6 @@ public class MainAdapter extends RecyclerView.Adapter<MainViewHolder> implements
 
     private Context context;
 
-
     public MainAdapter(Context context) {
         this.context = context;
     }
@@ -41,10 +40,8 @@ public class MainAdapter extends RecyclerView.Adapter<MainViewHolder> implements
         return MainEnum.values().length;
     }
 
-
     @Override
     public void onClick(MainEnum item) {
-        System.out.println(">>>> item = " + item);
         context.startActivity(new Intent(context, item.getActivity()));
     }
 }

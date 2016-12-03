@@ -21,7 +21,6 @@ public class MainViewHolder extends RecyclerView.ViewHolder {
         binding.icon.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                System.out.println(">>>>>>> view = " + view);
                 onClickListener.onClick(mainEnum);
             }
         });

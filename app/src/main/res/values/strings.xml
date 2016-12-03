@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">小蜜計畫</string>
+    <string name="activity_government_resources">政府資源</string>
+    <string name="activity_start_self_assessment">自我評估量表</string>
+    <string name="activity_chat">線上諮詢</string>
+    <string name="activity_friend_help">好友幫助我</string>
+    <string name="activity_action_plan">行動方案</string>
+    <string name="activity_article_list">專欄文章</string>
+</resources>
